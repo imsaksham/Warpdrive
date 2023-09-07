@@ -1,0 +1,6 @@
+
+// select Contract.name, Oppurtunity.stage from Contract INNER JOIN Opportunity 
+// ON Contract.opportunity == Opportunity.id;
+
+// select Oppurtunity.stage from Contract INNER JOIN Opportunity 
+// ON Contract.opportunity == Opportunity.id WHERE COUNT(Oppurtunity.name) == 1;
